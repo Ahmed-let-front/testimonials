@@ -30,7 +30,6 @@ html {
 }
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: var(--Grey100, #e7eaee);
   min-height: 100vh;
 }
 /* heading person */
@@ -55,9 +54,9 @@ body {
 .box {
   padding: var(--38px);
   border-radius: 10px;
-  padding-inline: calc(2rem + 9.5px);
+  padding-inline: calc(2rem + 9.6px);
   padding-block: calc(1rem + 14px);
-  box-shadow: 20px 20px 20px 1px var(--Grey200);
+  box-shadow: 20px 20px 20px 10px var(--Grey200);
 }
 /* global values */
 /* content */
@@ -148,6 +147,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   .testimonials-grid {
     margin-block: 0;
@@ -182,6 +182,7 @@ footer {
     }
     .box-4 {
       grid-area: b4;
+      position: relative;
     }
     .box-5 {
       grid-area: b5;
