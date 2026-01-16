@@ -31,6 +31,7 @@ html {
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   min-height: 100vh;
+  background-color: #f6f6f6;
 }
 /* heading person */
 .heading-of-person {
